@@ -1,0 +1,12 @@
+#band_description {
+    color: aquamarine;
+    font-size: 50px;
+}
+
+.medium-text {
+    color: white;
+    font-size: 25px;
+    font-weight: 700;
+    font-style: italic;
+}
+
