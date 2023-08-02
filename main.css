@@ -1,12 +1,64 @@
-#band_description {
-    color: aquamarine;
-    font-size: 50px;
+body {
+    background-color: rgb(255, 255, 255);
 }
 
-.medium-text {
-    color: white;
-    font-size: 25px;
-    font-weight: 700;
+#band-card {
+    width: 600px;
+    height: 400px;
+    background-color: #ffffff;
+    border-color: rgb(120, 38, 38);
+    border-width: 10px;
+    border-style: solid;
+    border-radius: 20px;
+    box-shadow: 5px 5px rgb(124, 124, 123);
+}
+
+#band-img {
+    width: 600px;
+    height: 200px;
+    object-fit: cover;
+}
+
+#band-name {
+    color: black;
+    font-size: large;
+    font-family: monospace;
+    text-align: start;
+}
+
+#band_description {
+    color: gray;
+    font-size: small;
+    font-family: monospace;
+    text-align: start;
+}
+
+#band-hit {
+    text-align: start;
+    font-family: monospace;
+    font-size: large;
     font-style: italic;
+    font-weight: bold;
+    color: cornflowerblue;
+}
+
+#btn-sub {
+    background-color: rgb(120, 38, 38);
+    border-color: rgb(120, 38, 38);
+    border-radius: 5%;
+    box-shadow: 0px 0px;
+    color: #ffffff;
+    font-weight: bold;
+    padding: 5px;
+}
+
+#btn-sub:hover {
+    background-color: blueviolet;
+    cursor: pointer;
+}
+
+.text{
+    margin-right: 10px;
+    margin-left: 10px;
 }
 
